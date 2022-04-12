@@ -16,4 +16,4 @@ jobs:
           heroku_api_key: ${{ secrets.heroku_api_key }}
           heroku_app_name: aera-bear
           heroku_email: ${{ secrets.email }}
-          branch: ${{ github.refname }}
+          branch: ${{ github.ref_name }}
